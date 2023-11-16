@@ -1,0 +1,28 @@
+{
+    "companyName" : "I-Scream Inc.",
+    "headOffice" : "Barrie",
+    "established" : 2023,
+    "active" : true,
+    "topFlavors" : [
+        {
+            "name" : "Chocolate Mint",
+            "calories" : 300,
+            "type" : "ice-cream",
+            "ingredients": [
+                "Liquid Chocolate",
+                "Peppermint Sprinkle",
+                "Vanilla Base"],
+            "image" : "chocolate-mint.svg"
+        },
+        {
+            "name" : "Peach Mango",
+            "calories" : 350,
+            "type" : "milkshake-type ice-cream",
+            "ingredients": [
+                "Peach Syrup",
+                "Mango Chunk",
+                "Vanilla Base"],
+            "image" : "peach-mango.svg"
+        }
+    ]
+}
