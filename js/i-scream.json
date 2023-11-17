@@ -23,6 +23,17 @@
                 "Mango Chunk",
                 "Vanilla Base"],
             "image" : "https://johngu0209.github.io/COMP1073-Lab4/images/peach-mango.svg"
+        },
+        {
+            "name" : "Strawberry Sprinkle",
+            "calories" : 400,
+            "type" : "ice-cream",
+            "ingredients": [
+                "Strawberry Syrup",
+                "Mixed Sprinkles",
+                "Vanilla Base"],
+            "image" : "https://johngu0209.github.io/COMP1073-Lab4/images/strawberry-sprinkle.svg"
         }
     ]
+    
 }
