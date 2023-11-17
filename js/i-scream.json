@@ -12,7 +12,7 @@
                 "Liquid Chocolate",
                 "Peppermint Sprinkle",
                 "Vanilla Base"],
-            "image" : "chocolate-mint.svg"
+            "image" : "https://johngu0209.github.io/COMP1073-Lab4/images/chocolate-mint.svg"
         },
         {
             "name" : "Peach Mango",
