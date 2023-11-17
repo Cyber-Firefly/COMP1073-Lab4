@@ -52,14 +52,16 @@ function showTopFlavors(jsonData) {
     var list = document.createElement("ul");
     // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
     h2.textContent = topFlavors[i].name;
-    p1.textContent = `${topFlavors[i].type}`;
-    p2.textContent = `${topFlavors[i].calories}`;
-    image.setAttribute("src");
+    p1.textContent = `Type: ${topFlavors[i].type}`;
+    p2.textContent = `Calories: ${topFlavors[i].calories}`;
+    image.setAttribute("src", topFlavors[i].image);
+    image.setAttribute("alt", topFlavors[i].image);
     // STEP 10g: Build a loop for the ingredients array in the JSON
     // STEP 10i: Append each complete ARTICLE element to the SECTION element
     article.appendChild(h2);
     article.appendChild(p1);
     article.appendChild(p2);
+    article.append(image);
     section.appendChild(article);
   }
 }
