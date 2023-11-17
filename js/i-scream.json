@@ -22,7 +22,7 @@
                 "Peach Syrup",
                 "Mango Chunk",
                 "Vanilla Base"],
-            "image" : "peach-mango.svg"
+            "image" : "https://johngu0209.github.io/COMP1073-Lab4/images/peach-mango.svg"
         }
     ]
 }
